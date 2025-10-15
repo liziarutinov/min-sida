@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: black;
+    background-image: url(svart-bakgrund.jpg);
     background-size: cover;
 }
 
@@ -17,11 +17,13 @@ body {
 h2 {
     font-family: gothic;
     margin-top: 2px;
+    margin-left: 5px;
 }
 
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: large;
+    margin-left: 5px;
 }
 
 .nav {
@@ -49,7 +51,22 @@ a {
     margin-top: 20px;
 }
 
+.flexcol {
+    display: flex;
+    flex-direction: column;
+}
+
 img {
     width: 30vw;
     margin-left: 5px;
+}
+
+.sizeadjust {
+    height: 300px;
+    width: auto;
+}
+
+li {
+    margin-left: 20px;
+    font-size: large;
 }
